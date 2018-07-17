@@ -1,0 +1,10 @@
+*.orig
+*.swp
+*.lock
+
+# Visual Studio 2015
+.vs/
+
+# Python
+.idea/
+__pycache__/
