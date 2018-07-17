@@ -1,10 +1,47 @@
-*.orig
-*.swp
-*.lock
+*.obj
+*.exe
+*.pdb
+*.user
+*.aps
+*.pch
+*.vspscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.cache
+*.ilk
+*.log
+*.lib
+*.sbr
+*.scc
+*.tokens
+[Bb]in
+[Db]ebug*/
+obj/
+[Rr]elease*/
+[Tt]est[Rr]esult*
+[Bb]uild[Ll]og.*
+*.[Pp]ublish.xml
+hibernate.cfg.xml
+/tools/*
 
-# Visual Studio 2015
-.vs/
+# Gulp
+/SchemesWriter.Web/public/*.js
+/SchemesWriter.Web/public/*.css
+/SchemesWriter.B2C/public/*.js
+/SchemesWriter.B2C/public/*.css
 
-# Python
-.idea/
-__pycache__/
+# IDE
+*resharper*
+_ReSharper*/
+*ncrunch*
+
+# Package Managers
+[Nn]uGet.exe
+packages/
+node_modules/*
+npm-debug.log
